@@ -4,9 +4,10 @@
 
 **Create a smart contract with a single private state variable (string or uint) and develop functions to modify and retrieve this value. Deploy the contract to the Mumbai testnet and Swisstronik testnet, and write a script to access this variable using the RPC method eth_getStorageAt() on both networks.** 
 
--[] First step is to create the contract in this case Hello_swtr.sol
--[] second is to deploy on the different testnets. ie: Swisstronik testnet and Mumbai Testnet
--[] run the subsequent commands as given in the steps below
+> First step is to create the contract in this case Hello_swtr.sol
+> second is to deploy on the different testnets. ie: Swisstronik testnet and Mumbai Testnet
+> run the subsequent commands as given in the steps below
+
 ## Addresses of Deployed Contracts
 The contract Hello_swtr was deployed on both Mumbai Testnet and Swisstronik Testnet and the addresses are:
 ```
