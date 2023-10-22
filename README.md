@@ -8,7 +8,7 @@
 > Second is to deploy on the different testnets. ie: Swisstronik testnet and Mumbai Testnet <br/>
 > Third run the subsequent commands as given in the steps below.<br/>
 
-## Addresses of Deployed Contracts
+## ~Addresses of Deployed Contracts~
 The contract Hello_swtr was deployed on both Mumbai Testnet and Swisstronik Testnet and the addresses are:
 ```
     Swisstronik Testnet: 0x8375a3B6d44Df7e32C5E3c932e6fA08f22112607
@@ -16,8 +16,8 @@ The contract Hello_swtr was deployed on both Mumbai Testnet and Swisstronik Test
 ```
 
 ### Compiling
-run this command in your project terminal
-`npx hardhat compile`
+run this command in your project terminal<br/>
+`npx hardhat compile`<br/>
 This will create files for the compiled bytecode
 
 ### Deployment
