@@ -1,6 +1,12 @@
 # TechFiesta Swisstronik Challenge2
+[//]: # (This is extended from ethereum and swisstronik documentation)
 
-Create a smart contract with a single private state variable (string or uint) and develop functions to modify and retrieve this value. Deploy the contract to the Mumbai testnet and Swisstronik testnet, and write a script to access this variable using the RPC method eth_getStorageAt() on both networks. 
+**Create a smart contract with a single private state variable (string or uint) and develop functions to modify and retrieve this value.\
+Deploy the contract to the Mumbai testnet and Swisstronik testnet, <br/> and write a script to access this variable using the RPC method eth_getStorageAt() on both networks.**
+
+> First step is to create the contract in this case Hello_swtr.sol <br/>
+> Second is to deploy on the different testnets. ie: Swisstronik testnet and Mumbai Testnet <br/>
+> Third run the subsequent commands as given in the steps below.<br/>
 
 ## Addresses of Deployed Contracts
 The contract Hello_swtr was deployed on both Mumbai Testnet and Swisstronik Testnet and the addresses are:
@@ -10,23 +16,24 @@ The contract Hello_swtr was deployed on both Mumbai Testnet and Swisstronik Test
 ```
 
 ### Compiling
-run this command in your project terminal
-`npx hardhat compile`
+run this command in your project terminal<br/>
+`npx hardhat compile`<br/>
 This will create files for the compiled bytecode
 
 ### Deployment
-run this command in your project terminal
-`npx hardhat run scripts/deploy.js`
+run this command in your project terminal<br/>
+`npx hardhat run scripts/deploy.js`<br/>
 This will return the addresses of the deployed contracts
 
 ### Retreiving the value of the state variable using eth_getStorageAt()
-run this command
+run this command<br/>
 `npx hardhat run scripts/getStorage.js
 
 ```
-    Message From Swisstronik:
+    Message From Swisstronik:<br/>
     0x1ac0a946c50b5a6cbdaef7d0a457a3a6c8ab0b5ac89407eccee3f83d2d50a3a2
 
-   Message from Mumbai:
+   Message from Mumbai:<br/>
    0x48656c6c6f20576f726c6421212100000000000000000000000000000000011a
 ```
+
