@@ -28,7 +28,7 @@ This will return the addresses of the deployed contracts
 ### Retreiving the value of the state variable using eth_getStorageAt()
 run this command<br/>
 `npx hardhat run scripts/getStorage.js
-**
+
 ```
     Message From Swisstronik:<br/>
     0x1ac0a946c50b5a6cbdaef7d0a457a3a6c8ab0b5ac89407eccee3f83d2d50a3a2
@@ -36,4 +36,4 @@ run this command<br/>
    Message from Mumbai:<br/>
    0x48656c6c6f20576f726c6421212100000000000000000000000000000000011a
 ```
-**
+
