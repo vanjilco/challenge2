@@ -1,4 +1,4 @@
-# TechFiesta Swisstronik Challenge2
+## TechFiesta Swisstronik Challenge2
 [//]: # (This is extended from ethereum and swisstronik documentation)
 
 **Create a smart contract with a single private state variable (string or uint) and develop functions to modify and retrieve this value.\
